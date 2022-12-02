@@ -1,3 +1,7 @@
+/** 
+* @param { number } no
+* @return{ number } 
+*/
 const convertZeroes = (no) => {
 	let res = String(no);
     let ans = res.replace(/['0']/g, '5');
