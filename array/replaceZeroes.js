@@ -3,8 +3,8 @@
 * @return{ number } 
 */
 const convertZeroes = (no) => {
-	let res = String(no);
+    let res = String(no);
     let ans = res.replace(/['0']/g, '5');
-	return ans;
+    return ans;
 }
 console.log(convertZeroes(1004));
