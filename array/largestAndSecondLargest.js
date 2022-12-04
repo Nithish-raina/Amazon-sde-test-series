@@ -1,3 +1,7 @@
+/** 
+ * @param {array} arr 
+ * @array {[array]} 
+ */ 
 const largestAndSecondLargest= (arr) => {
   let max1 = -1, max2 = -1;
   for(let item of arr) {
