@@ -1,5 +1,5 @@
 /** 
- * @param { array, number, number } arr, x
+ * @param { array, number, number } arr, x, y
  * @return { number }
 */ 
 const minDist = (arr, x, y) => {
