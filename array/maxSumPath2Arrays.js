@@ -1,3 +1,8 @@
+/** Returns the maxPathSum starting from any array and ending at the any of the 2 arrays
+ * @param { number[] } arr1 
+ * @param { number[] } arr2
+ * @return { number } res
+ */ 
 const maxPathSum = (arr1, arr2) => {
   let i = 0, j = 0, m = arr1.length, n = arr2.length;
   let sum1 = 0, sum2 = 0, res = 0;
