@@ -1,3 +1,7 @@
+/** Returns a sorted subsequence of size 3 
+ *  @param { number[] } arr The input array 
+ *  @return { number[] } res The resultant subsequence array of size 3
+ */
 const sortSeqThree = (arr) => {
   const n = arr.length;
   let smaller = new Array(n);
