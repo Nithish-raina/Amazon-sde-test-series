@@ -1,6 +1,6 @@
 /**  Returns duplicates of the given 0...N-1 array else returns [-1]
   *  @param { number[] } arr The input array
-  * `@return { nuumber[] } res The array containing duplicates`
+  *  @return { number[] } res The array containing duplicates`
   */
   
 const getDups = (arr) => {
