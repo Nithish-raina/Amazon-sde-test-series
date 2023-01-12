@@ -7,8 +7,8 @@
   for(let i = 1; i < arr.length; i++) {
     curSum = (curSum < 0) ? arr[i] : curSum + arr[i];
     maxSum = Math.max(maxSum, curSum);
-    console.log(maxSum);
-    return maxSum;
   }
+  console.log(maxSum);
+  return maxSum;
 })([-1, -2, 3, -2, 5]);
 
